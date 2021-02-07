@@ -1,0 +1,23 @@
+{
+  "name": "quill-annotate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx parcel index.html",
+    "prod": "npx parcel build index.html --public-url './'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "path": "^0.12.7",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "parcel-bundler": "1.12.4"
+  },
+  "dependencies": {
+    "xml-formatter": "2.1.2"
+  }
+}

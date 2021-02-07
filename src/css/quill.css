@@ -1,0 +1,46 @@
+.ql-snow .ql-picker {
+  font-size: 1.2rem;
+}
+
+.ql-formats button {
+  margin-top: -5px;
+  width: auto !important;
+  ;
+}
+
+
+.ql-formats .ql-picker {
+  width: auto;
+}
+
+.ql-picker .ql-picker-options {
+  font-size: 0.9rem;
+}
+
+.ql-btn-caption {
+  padding: 5px 10px;
+  background-color: rgb(228, 228, 228);
+  border-radius: 9999px;
+  font-size: 0.9rem;
+  outline: none;
+}
+
+.ql-snow .ql-picker:not(.ql-color-picker):not(.ql-icon-picker) svg {
+  right: -15px;
+}
+
+.ql-picker-label {
+  outline: none;
+  border: none;
+}
+.ql-snow .ql-picker.ql-expanded .ql-picker-label{
+  color: #000
+}
+
+.ql-picker-label .icon {
+  margin-top: -2px;
+}
+
+.invaildSSML {
+  border: 1px solid red !important;
+}
